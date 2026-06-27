@@ -5,155 +5,155 @@ sites:
   - name: 2fauth
     url: https://2fauth.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: bazarr
     url: https://bazarr.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: changedetection
     url: https://changedetection.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: domain-monitor
     url: https://domain-monitor.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: drift
     url: https://drift.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: flaresolverr
     url: https://flaresolverr.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: forgejo
     url: https://forgejo.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: freshrss
     url: https://freshrss.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: glance
     url: https://glance.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: gotify
     url: https://gotify.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: grafana
     url: https://grafana.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: jellyfin
     url: https://jellyfin.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: jellyseerr
     url: https://jellyseerr.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: karakeep
     url: https://karakeep.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: kasa
     url: https://kasa.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: komodo
     url: https://komodo.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: linkstack
     url: https://linkstack.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: lobehub
     url: https://lobehub.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: myspeed
     url: https://myspeed.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: nzbget
     url: https://nzbget.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: omni-tools
     url: https://omni-tools.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: pinchflat
     url: https://pinchflat.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: prometheus
     url: https://prometheus.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: prowlarr
     url: https://prowlarr.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: pulse
     url: https://pulse.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: pve-scripts-local
     url: https://pve-scripts-local.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: qbittorrent
     url: https://qbittorrent.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: radarr
     url: https://radarr.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: searxng
     url: https://searxng.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: semaphore
     url: https://semaphore.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: sonarr
     url: https://sonarr.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: termix
     url: https://termix.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: triage
     url: https://triage.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: triage-test
     url: https://triage-test.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: uptime-home
     url: https://uptime-home.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: vgw
     url: https://vgw.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: vikunja
     url: https://vikunja.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: your-spotify
     url: https://your-spotify.omertahaoztop.tr
     headers:
-      - "X-Health-Check": "$HEALTH_CHECK_SECRET"
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
 
 notifications:
   - type: telegram
