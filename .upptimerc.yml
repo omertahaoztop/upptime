@@ -1,31 +1,95 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: omertahaoztop
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: 2fauth
+    url: https://2fauth.omertahaoztop.tr
+  - name: bazarr
+    url: https://bazarr.omertahaoztop.tr
+  - name: changedetection
+    url: https://changedetection.omertahaoztop.tr
+  - name: domain-monitor
+    url: https://domain-monitor.omertahaoztop.tr
+  - name: drift
+    url: https://drift.omertahaoztop.tr
+  - name: flaresolverr
+    url: https://flaresolverr.omertahaoztop.tr
+  - name: forgejo
+    url: https://forgejo.omertahaoztop.tr
+  - name: freshrss
+    url: https://freshrss.omertahaoztop.tr
+  - name: glance
+    url: https://glance.omertahaoztop.tr
+  - name: gotify
+    url: https://gotify.omertahaoztop.tr
+  - name: grafana
+    url: https://grafana.omertahaoztop.tr
+  - name: jellyfin
+    url: https://jellyfin.omertahaoztop.tr
+  - name: jellyseerr
+    url: https://jellyseerr.omertahaoztop.tr
+  - name: karakeep
+    url: https://karakeep.omertahaoztop.tr
+  - name: kasa
+    url: https://kasa.omertahaoztop.tr
+  - name: komodo
+    url: https://komodo.omertahaoztop.tr
+  - name: linkstack
+    url: https://linkstack.omertahaoztop.tr
+  - name: lobehub
+    url: https://lobehub.omertahaoztop.tr
+  - name: myspeed
+    url: https://myspeed.omertahaoztop.tr
+  - name: nzbget
+    url: https://nzbget.omertahaoztop.tr
+  - name: omni-tools
+    url: https://omni-tools.omertahaoztop.tr
+  - name: pinchflat
+    url: https://pinchflat.omertahaoztop.tr
+  - name: prometheus
+    url: https://prometheus.omertahaoztop.tr
+  - name: prowlarr
+    url: https://prowlarr.omertahaoztop.tr
+  - name: pulse
+    url: https://pulse.omertahaoztop.tr
+  - name: pve-scripts-local
+    url: https://pve-scripts-local.omertahaoztop.tr
+  - name: qbittorrent
+    url: https://qbittorrent.omertahaoztop.tr
+  - name: radarr
+    url: https://radarr.omertahaoztop.tr
+  - name: searxng
+    url: https://searxng.omertahaoztop.tr
+  - name: semaphore
+    url: https://semaphore.omertahaoztop.tr
+  - name: sonarr
+    url: https://sonarr.omertahaoztop.tr
+  - name: termix
+    url: https://termix.omertahaoztop.tr
+  - name: triage
+    url: https://triage.omertahaoztop.tr
+  - name: triage-test
+    url: https://triage-test.omertahaoztop.tr
+  - name: uptime-home
+    url: https://uptime-home.omertahaoztop.tr
+  - name: vgw
+    url: https://vgw.omertahaoztop.tr
+  - name: vikunja
+    url: https://vikunja.omertahaoztop.tr
+  - name: your-spotify
+    url: https://your-spotify.omertahaoztop.tr
+
+notifications:
+  - type: telegram
+    bot-token: $TELEGRAM_BOT_TOKEN
+    chat-id: $TELEGRAM_CHAT_ID
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.omertahaoztop.tr
+  name: "omertahaoztop Status"
+  introTitle: "Homelab Status"
+  introMessage: "Powered by Upptime + GitHub Actions"
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  theme: dark
