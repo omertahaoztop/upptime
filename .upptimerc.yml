@@ -8,6 +8,9 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: bazarr
     url: https://bazarr.omertahaoztop.tr
+    expectedStatusCodes:
+      - 200
+      - 401
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: changedetection
@@ -80,6 +83,9 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: nzbget
     url: https://nzbget.omertahaoztop.tr
+    expectedStatusCodes:
+      - 200
+      - 401
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: omni-tools
@@ -124,6 +130,9 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: sonarr
     url: https://sonarr.omertahaoztop.tr
+    expectedStatusCodes:
+      - 200
+      - 401
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: termix
@@ -144,6 +153,9 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: vgw
     url: https://vgw.omertahaoztop.tr
+    expectedStatusCodes:
+      - 200
+      - 403
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: vikunja
@@ -154,11 +166,6 @@ sites:
     url: https://your-spotify.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-
-notifications:
-  - type: telegram
-    bot-token: $TELEGRAM_BOT_TOKEN
-    chat-id: $TELEGRAM_CHAT_ID
 
 status-website:
   cname: status.omertahaoztop.tr
