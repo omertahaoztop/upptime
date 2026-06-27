@@ -169,6 +169,9 @@ sites:
 
   - name: pbs
     url: https://pbs.omertahaoztop.tr
+    expectedStatusCodes:
+      - 200
+      - 400
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: vaultwarden
