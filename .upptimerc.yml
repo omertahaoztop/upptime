@@ -178,6 +178,10 @@ sites:
     url: https://vaultwarden.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: librechat
+    url: https://librechat.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
   cname: status.omertahaoztop.tr
   name: "omertahaoztop Status"
