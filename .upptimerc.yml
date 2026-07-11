@@ -73,10 +73,6 @@ sites:
     url: https://linkstack.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: lobehub
-    url: https://lobehub.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: myspeed
     url: https://myspeed.omertahaoztop.tr
     headers:
