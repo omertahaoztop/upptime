@@ -169,10 +169,6 @@ sites:
     url: https://vaultwarden.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: librechat
-    url: https://librechat.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: open-webui
     url: https://open-webui.omertahaoztop.tr
     headers:
