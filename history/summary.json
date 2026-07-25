@@ -765,17 +765,19 @@
     "url": "https://tududi.omertahaoztop.tr",
     "icon": "https://icons.duckduckgo.com/ip3/tududi.omertahaoztop.tr.ico",
     "slug": "tududi",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 313,
-    "timeDay": 313,
-    "timeWeek": 313,
-    "timeMonth": 313,
-    "timeYear": 313,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "96.56%",
+    "uptimeDay": "96.56%",
+    "uptimeWeek": "96.56%",
+    "uptimeMonth": "96.56%",
+    "uptimeYear": "96.56%",
+    "time": 359,
+    "timeDay": 359,
+    "timeWeek": 359,
+    "timeMonth": 359,
+    "timeYear": 359,
+    "dailyMinutesDown": {
+      "2026-07-25": 0
+    }
   }
 ]
