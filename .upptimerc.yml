@@ -185,10 +185,6 @@ sites:
     url: https://cronmaster.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: tududi
-    url: https://tududi.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
   cname: status.omertahaoztop.tr
   name: "omertahaoztop Status"
