@@ -1,7 +1,7 @@
 url: https://grafana.omertahaoztop.tr
-status: down
-code: 530
-responseTime: 40
-lastUpdated: 2026-08-17T10:45:20.446Z
+status: up
+code: 200
+responseTime: 1307
+lastUpdated: 2026-08-17T16:13:17.331Z
 startTime: 2026-06-27T22:58:32.724Z
 generator: Upptime <https://github.com/upptime/upptime>
