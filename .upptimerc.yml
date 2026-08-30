@@ -41,10 +41,6 @@ sites:
     url: https://glance.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: gotify
-    url: https://gotify.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: grafana
     url: https://grafana.omertahaoztop.tr
     headers:
@@ -69,19 +65,8 @@ sites:
     url: https://komodo.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: linkstack
-    url: https://linkstack.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: myspeed
     url: https://myspeed.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: nzbget
-    url: https://nzbget.omertahaoztop.tr
-    expectedStatusCodes:
-      - 200
-      - 401
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: omni-tools
@@ -169,10 +154,6 @@ sites:
     url: https://vaultwarden.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: open-webui
-    url: https://open-webui.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: bookorbit
     url: https://bookorbit.omertahaoztop.tr
     headers:
@@ -183,6 +164,10 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: cronmaster
     url: https://cronmaster.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: mem0
+    url: https://mem0.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
