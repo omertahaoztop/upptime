@@ -1,7 +1,7 @@
 url: https://prowlarr.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 983
-lastUpdated: 2026-09-15T01:10:09.184Z
+status: down
+code: 502
+responseTime: 433
+lastUpdated: 2026-09-15T17:21:51.863Z
 startTime: 2026-06-27T22:59:15.842Z
 generator: Upptime <https://github.com/upptime/upptime>
