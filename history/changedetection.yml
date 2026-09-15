@@ -1,7 +1,7 @@
 url: https://changedetection.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 813
-lastUpdated: 2026-09-15T01:09:49.603Z
+status: down
+code: 502
+responseTime: 442
+lastUpdated: 2026-09-15T17:17:23.727Z
 startTime: 2026-06-27T22:58:11.976Z
 generator: Upptime <https://github.com/upptime/upptime>
