@@ -1,7 +1,7 @@
 url: https://triage-test.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 1372
-lastUpdated: 2026-09-15T01:10:19.941Z
+status: down
+code: 502
+responseTime: 408
+lastUpdated: 2026-09-15T17:24:28.190Z
 startTime: 2026-06-27T22:59:52.217Z
 generator: Upptime <https://github.com/upptime/upptime>
