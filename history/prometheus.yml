@@ -1,7 +1,7 @@
 url: https://prometheus.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 1462
-lastUpdated: 2026-09-15T01:10:08.110Z
+status: down
+code: 502
+responseTime: 590
+lastUpdated: 2026-09-15T17:21:35.882Z
 startTime: 2026-06-27T22:59:13.004Z
 generator: Upptime <https://github.com/upptime/upptime>
