@@ -1,7 +1,7 @@
 url: https://radarr.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 1366
-lastUpdated: 2026-09-15T01:10:14.120Z
+status: down
+code: 502
+responseTime: 448
+lastUpdated: 2026-09-15T17:22:54.964Z
 startTime: 2026-06-27T22:59:25.736Z
 generator: Upptime <https://github.com/upptime/upptime>
