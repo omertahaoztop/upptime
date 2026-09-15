@@ -1,7 +1,7 @@
 url: https://semaphore.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 744
-lastUpdated: 2026-09-15T01:10:15.615Z
+status: down
+code: 502
+responseTime: 440
+lastUpdated: 2026-09-15T17:23:26.031Z
 startTime: 2026-06-27T22:59:31.327Z
 generator: Upptime <https://github.com/upptime/upptime>
