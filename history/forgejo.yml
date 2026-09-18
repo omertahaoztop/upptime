@@ -1,7 +1,7 @@
 url: https://forgejo.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 514
-lastUpdated: 2026-09-18T01:01:44.231Z
+status: down
+code: 502
+responseTime: 488
+lastUpdated: 2026-09-18T09:31:03.525Z
 startTime: 2026-06-27T22:58:23.098Z
 generator: Upptime <https://github.com/upptime/upptime>
