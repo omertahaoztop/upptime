@@ -156,7 +156,7 @@ sites:
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: hindsight
-    url: https://hindsight.omertahaoztop.tr
+    url: https://hindsight.omertahaoztop.tr/health
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: pve11
