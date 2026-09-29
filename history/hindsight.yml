@@ -1,7 +1,7 @@
 url: https://hindsight.omertahaoztop.tr/health
-status: up
-code: 200
-responseTime: 419
-lastUpdated: 2026-09-29T02:29:06.386Z
+status: down
+code: 502
+responseTime: 468
+lastUpdated: 2026-09-29T13:06:48.443Z
 startTime: 2026-09-19T23:30:42.274Z
 generator: Upptime <https://github.com/upptime/upptime>
