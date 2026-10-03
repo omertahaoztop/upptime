@@ -163,6 +163,18 @@ sites:
     url: https://pve11.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: myip
+    url: https://myip.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: openwebui
+    url: https://openwebui.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: patchmon
+    url: https://patchmon.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
   cname: status.omertahaoztop.tr
   name: "omertahaoztop Status"
