@@ -120,10 +120,6 @@ sites:
     url: https://triage.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
-  - name: triage-test
-    url: https://triage-test.omertahaoztop.tr
-    headers:
-      - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: uptime-home
     url: https://uptime-home.omertahaoztop.tr
     headers:
@@ -173,6 +169,14 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
   - name: patchmon
     url: https://patchmon.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: mylife
+    url: https://mylife.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: xerj
+    url: https://xerj.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
