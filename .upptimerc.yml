@@ -175,10 +175,14 @@ sites:
     url: https://mylife.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
+    expectedStatusCodes:
+      - 401
   - name: xerj
     url: https://xerj.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
+    expectedStatusCodes:
+      - 403
 status-website:
   cname: status.omertahaoztop.tr
   name: "omertahaoztop Status"
