@@ -1,7 +1,7 @@
 url: https://2fauth.omertahaoztop.tr
-status: up
-code: 200
-responseTime: 679
-lastUpdated: 2026-10-16T00:59:42.854Z
+status: down
+code: 502
+responseTime: 369
+lastUpdated: 2026-10-16T18:01:41.074Z
 startTime: 2026-06-27T22:57:55.917Z
 generator: Upptime <https://github.com/upptime/upptime>
