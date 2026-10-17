@@ -183,6 +183,10 @@ sites:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
     expectedStatusCodes:
       - 403
+  - name: mira
+    url: https://mira.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
   cname: status.omertahaoztop.tr
   name: "omertahaoztop Status"
