@@ -187,6 +187,18 @@ sites:
     url: https://mira.omertahaoztop.tr
     headers:
       - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: ntfy
+    url: https://ntfy.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: uptime-kuma
+    url: https://uptime-kuma.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
+  - name: uptimekuma
+    url: https://uptimekuma.omertahaoztop.tr
+    headers:
+      - "X-Health-Check: $HEALTH_CHECK_SECRET"
 status-website:
   cname: status.omertahaoztop.tr
   name: "omertahaoztop Status"
